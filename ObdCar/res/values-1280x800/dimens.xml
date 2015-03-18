@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- 首页车辆信息 -->
+    <dimen name="home_text_plate">16sp</dimen>
+    <dimen name="home_text_branch">14sp</dimen>
+
+</resources>

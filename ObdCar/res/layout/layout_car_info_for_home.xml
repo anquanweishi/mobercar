@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/top_bar_color"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/layout_has_car"
+        android:layout_width="150dip"
+        android:layout_height="90dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/car_info_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/img_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_car_plate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dip"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/home_text_plate" />
+
+            <TextView
+                android:id="@+id/text_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/home_text_branch" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_add_car"
+        android:layout_width="150dip"
+        android:layout_height="90dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/car_info_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_add_car_for_home" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/btn_add_car_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_order_maintain"
+        android:layout_width="150dip"
+        android:layout_height="90dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/car_info_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_maintain_for_home" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/btn_order_maintain_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+</LinearLayout>

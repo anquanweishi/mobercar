@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="tips_no_sdcard">存储卡装载有误，可能无法拍照哦！</string>
+    <string name="data_load_fail">数据加载异常</string>
+    <string name="network_unavailable_tips">当前无网络，请设置后再试</string>
+    <string name="net_manual_set">无法启动网络设置，请手动设置网络。</string>
+    <string name="tips_car_check_by_date">%s暂时没有车况，请更换日期再试。</string>
+    <string name="has_no_more_data">暂无更多数据</string>
+
+    <!-- 注册 -->
+    <string name="tips_reg_fail">注册失败，网络环境不太好</string>
+    <string name="tips_login_fail">登录失败，请稍后再试。</string>
+    <string name="tips_car_add_fail">车辆添加失败，网络环境不太好</string>
+    <string name="tips_choose_province">请选择省份</string>
+    <string name="tips_phone_null">请输入您的电话号码</string>
+    <string name="text_phone_tips">您输入的手机号码不正确，请重新输入。</string>
+    <string name="text_service_right">请勾选服务条款</string>
+    <string name="tips_auth_code_send">验证码已发出，请注意查收。</string>
+    <string name="tips_auth_phone_vilid">您输入的手机号已存在，请更换后重试。</string>
+    <string name="tips_auth_code_send_fail">验证码发送失败，请稍后再试。</string>
+    <string name="tips_auth_code_null">请输入您收到的验证码</string>
+
+    <!-- 登录 -->
+    
+    <!-- 激活 -->
+    <string name="tips_choose_add_car">请选择或添加一辆车</string>
+    <string name="tips_active_suc">激活盒子成功</string>
+    <string name="tips_active_fail">激活盒子失败</string>
+
+    <!-- 忘记密码 -->
+    <string name="text_account_tips">请输入您的帐号</string>
+    <string name="text_account_invilidate">请输入正确的手机号或邮箱</string>
+
+    <!-- 首页 -->
+    <string name="tips_no_data">暂时没有数据，请稍后再试</string>
+    <string name="tips_no_svr_date">暂未收到数据</string>
+    
+    <!-- 保养 -->
+    <string name="tips_no_range_input">请输入爱车行驶里程</string>
+    <string name="tips_no_recoder">暂时没有保养记录，请稍后再试</string>
+    <string name="tips_maintain_add">请选择过去的时间。</string>
+    <string name="tips_less_than_zero">请输入大于0的整数。</string>
+    
+    <!-- 商家 -->
+    <string name="tips_no_merchants">附近暂无商家</string>
+    <string name="tips_order_suc">预约成功</string>
+    <string name="tips_order_fail">预约失败</string>
+    <!-- 评价 -->
+    <string name="tips_no_comment">暂无评价</string>
+
+    <!-- 添加车辆 -->
+    <string name="tips_car_model">请选择车型</string>
+    <string name="tips_car_area">请选择行驶区域</string>
+    <string name="tips_car_plate">请输入车牌号码</string>
+    <string name="tips_car_engine">请输入发动机号</string>
+    <string name="tips_car_frame">请输入车架号码</string>
+    <string name="tips_add_car_suc">添加车辆成功</string>
+    <string name="tips_add_car_fail">添加车辆失败，请重试。</string>
+    <!-- 车况体检 -->
+    <string name="tips_car_offline">您的车辆处于离线中，暂不能体检。</string>
+    <string name="tips_car_stop">您的车辆处于停车中，暂不能体检。</string>
+    <string name="tips_car_check_fail">体检异常，请稍后再试。</string>
+    <string name="tips_no_trouble">没有故障数据，请更换日期再试。</string>
+    <!-- 行程 -->
+    <string name="tips_date_no_trip">没有行程记录，请更换日期再试。</string>
+    <string name="tips_date_no_score">没有评分数据，请更换日期再试。</string>
+    <string name="tips_no_trip">没有行程记录，请稍后再试。</string>
+    <!-- 违章 -->
+    <string name="tips_no_break_rule">暂无违章记录</string>
+
+    <!-- 车辆绑定 -->
+    <string name="tips_car_bind_fail">车辆绑定失败</string>
+    <string name="tips_default_car_set_fail">默认车辆设置失败</string>
+    <string name="tips_unbind_fail">解除绑定失败</string>
+
+    <!-- 个人信息 -->
+    <string name="tips_info_set_fail">信息修改失败</string>
+    <string name="tips_pwd_set_fail">密码修改失败</string>
+
+    <!-- 服务 -->
+    <string name="tips_service_no_data">暂无数据，请下拉重试。</string>
+    <string name="tips_category_no_data">暂无数据，请稍后再试。</string>
+    
+    <!-- 我的 -->
+    <string name="tips_no_fav">暂无没有收藏，请稍后再试。</string>
+    
+    <!-- 输入提示 -->
+    <string name="tips_no_input">请输入内容</string>
+    
+    <!-- 发送 -->
+    <string name="tips_send_suc">发送成功</string>
+    <string name="tips_send_fail">发送失败</string>
+    
+    <!-- 离线地图 -->
+    <string name="tips_start_download">开始下载离线地图</string>
+
+</resources>

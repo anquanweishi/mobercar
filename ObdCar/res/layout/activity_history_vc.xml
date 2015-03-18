@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_top_bar"
+        layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:id="@+id/layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top_bar"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/text_start_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_input_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/Middle_font" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="至"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_end_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_input_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/Middle_font" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/btn_blue_bg"
+            android:text="@string/btn_search"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandablelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_date"
+        android:childDivider="@color/interval"
+        android:childIndicator="@null"
+        android:groupIndicator="@null"
+        android:listSelector="@color/transparent" >
+    </ExpandableListView>
+
+    <TextView
+        android:id="@+id/tips_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/text_gray_color"
+        android:textSize="@dimen/Small_font" />
+
+</RelativeLayout>

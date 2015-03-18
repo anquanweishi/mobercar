@@ -1,0 +1,1 @@
+{"status":1,"result":{"sumDis":431,"fuelAvg":8.6,"ser":"雅阁","dsort":5,"one":"吉林省","my":"6145","two":"吉林市","distance":"21045","nick":"185****9921","fsort":15,"three":"","bra":"本田","bid":10}}

@@ -1,0 +1,1 @@
+{"status":1,"result":{"two":"吉林市","distance":"21045","ser":"雅阁","nick":"185****9921","plateNumber":"津AFD135","one":"吉林省","score":50,"three":"","bra":"本田","bid":-1,"my":"6145"}}

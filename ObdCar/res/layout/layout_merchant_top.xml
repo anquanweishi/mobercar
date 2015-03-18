@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_margin="10dip" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/layout_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="200dip" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/half_black"
+            android:gravity="center_vertical"
+            android:minHeight="40dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_shop_promotion"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/maintain_blue_text_color"
+                android:textSize="@dimen/Small_font" />
+
+            <LinearLayout
+                android:id="@+id/layout_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

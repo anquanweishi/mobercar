@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- topbar -->
+    <color name="top_bar_color">#007ac2</color>
+    <color name="blue_bg_for_btn">#7ebade</color>
+
+    <!-- activity bg -->
+    <color name="activity_gray">#fbfbfb</color>
+
+    <!-- tab -->
+    <color name="base_layout_bg">#3193cd</color>
+    <color name="tab_item_click_color">#006a94</color>
+
+    <!-- 登录 -->
+    <color name="btn_auth_click">#7cbcdd</color>
+    <color name="btn_auth_text_click">#3d9ad0</color>
+    <color name="btn_commit_text_click">#bfdeee</color>
+
+    <!-- 激活盒子 -->
+    <color name="active_gray_color">#a3a3a3</color>
+    <color name="active_car_list_desc_color">#a4a4a4</color>
+    <color name="active_plate_text_color_hint">#b2d8ee</color>
+    <color name="btn_qr_color">#65b0da</color>
+
+    <!-- 首页 -->
+    <color name="layout_weather_color">#1a86c7</color>
+    <color name="home_interval_color">#00a3d9</color>
+    <color name="home_price_bg">#006a94</color>
+    <color name="home_bar_interval_color">#e8e8e8</color>
+
+    <!-- 保养 -->
+    <color name="maintain_blue_text_color">#00a3d9</color>
+
+    <!-- 上报油价 -->
+    <color name="text_oil_price_report">#0098ff</color>
+    <color name="text_label_report_color">#4b4b4b</color>
+
+    <!-- 用车报告 -->
+    <color name="text_car_use_report">#00acf0</color>
+
+    <!-- 公用 -->
+    <color name="transparent">#00000000</color>
+    <color name="text_gray_color">#a6a6a6</color>
+    <color name="color_title_bg">#1d8bd5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="half_black">#7f000000</color>
+    <color name="gray">#9d9b97</color>
+    <color name="header_color">#f1f1f1</color>
+    <color name="text_unable_color">#d2d2d2</color>
+    <color name="gray_my_light">#CCCCCC</color>
+    <color name="gray_line">#b1b1b1</color>
+    <color name="blue_text">#3289da</color>
+    <color name="green_color">#30bc92</color>
+    <color name="interval">#d5d5d5</color>
+    <color name="red">#ff0000</color>
+    <color name="font_car_add_color">#444444</color>
+    <color name="report_color">#f05e1e</color>
+
+    <!-- 下拉刷新 -->
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <!-- home color -->
+    <color name="home_violet_color">#9c4d99</color>
+    <color name="home_red_color">#c2493b</color>
+    <color name="home_green_color">#3db952</color>
+    <color name="home_blue_color">#3781bf</color>
+    <color name="home_yellow_color">#f0ee34</color>
+    <color name="home_recure_text_color">#323232</color>
+    <color name="home_recure_cancel_normal">#50a948</color>
+    <color name="home_recure_cancel_click">#85b980</color>
+
+    <!-- 进度条 -->
+    <color name="progress_layout_bg">#1884ca</color>
+    <color name="circle_bg_color">#04609c</color>
+    <color name="circle_color">#073059</color>
+    <color name="ring_color">#3991ce</color>
+
+    <!-- 车况体检 -->
+    <color name="check_circle_bg_color">#e4e9e8</color>
+    <color name="check_circle_color">#fbfbfb</color>
+    <color name="check_ring_color">#3991ce</color>
+
+    <!-- 服务滑块 -->
+    <color name="tab_select_color">#308be1</color>
+
+</resources>

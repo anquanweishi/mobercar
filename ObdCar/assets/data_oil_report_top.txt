@@ -1,0 +1,1 @@
+{"status":1,"result":{"vehicleId":5,"fuelAmount":152.500,"distance":1869.435,"avgFC100":8.15754490000,"maxFC100":8.1575449,"minFC100":8.1575449,"avgDistance":1869.4350000}}

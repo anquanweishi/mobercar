@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">途蜜欢行</string>
+    <string name="load_information">拼命加载中...</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_finish">完成</string>
+    <string name="btn_publish">发布</string>
+    <string name="btn_search">搜索</string>
+    <string name="btn_apply">申请</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_bind">绑定</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_ask">提问</string>
+    <string name="btn_select">查询</string>
+    <string name="btn_favorite">收藏</string>
+    <string name="btn_nav">导航</string>
+    <string name="toast_exit_app">再按一次退出</string>
+    <string name="area_null">地区不能为空</string>
+    <string name="btn_set_net">立即设置</string>
+    <string name="btn_do_nothing">我知道了</string>
+    <string name="title_qrcode_scan">二维码扫描</string>
+    <string name="limit_input_text">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="limit_input_text_for_number">0123456789</string>
+    <!-- <string name="limit_input_text">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string> -->
+
+
+    <!-- 注册 -->
+    <string name="live_city">居住城市</string>
+
+    <!-- 登录2.0 -->
+
+    <string name="text_exper">立即体验</string>
+    <string name="title_login">请登录</string>
+    <string name="text_tips_for_login">为了提高用户信息安全，请您使用本机号码</string>
+    <string name="text_phone">手机号码</string>
+    <string name="text_phone_hint">请输入手机号码</string>
+    <string name="text_pwd">密码</string>
+    <string name="text_pwd_hint">请输入密码</string>
+    <string name="text_auth_code">验证码</string>
+    <string name="text_auth_code_hint">请输入验证码</string>
+    <string name="auth_code_get">获取验证码</string>
+    <string name="auth_right">同意并接受途蜜欢行的      服务条款</string>
+    <string name="btn_auth_text">获取验证码</string>
+    <string name="btn_auth_text_for_countdown">%d秒重新获取</string>
+    <string name="btn_commit">提交</string>
+
+    <!-- 注册 -->
+    <string name="title_reg">请注册</string>
+
+    <!-- 激活盒子 -->
+    <string name="title_active">激活途蜜盒子</string>
+    <string name="activite_car_info">车辆信息</string>
+    <string name="activite_box">途蜜盒子</string>
+    <string name="activite_finish">激活完成</string>
+    <string name="car_branch_choose">车型选择</string>
+    <string name="text_car_plate_hint">请输入车牌号</string>
+    <string name="text_car_oil">燃油类型</string>
+    <string name="text_range_calibration">里程校准</string>
+    <string name="range_unit">公里</string>
+    <string name="text_range_calibration_hint">请输入行驶里程</string>
+    <string name="text_car_list">选择车辆</string>
+    <string name="btn_qrcode">扫描二维码</string>
+    <string name="btn_manual_input">手动输入</string>
+    <string name="text_serialnumber">序列号</string>
+    <string name="text_snum_null">请输入序列号</string>
+    <string name="text_active">激活码</string>
+    <string name="text_active_hint">(XXXX-XXXX-XXXX-XXXX)</string>
+    <string name="text_for_buy">如果没有，请先</string>
+    <string name="btn_buy">购买</string>
+
+    <!-- 忘记密码 -->
+    <string name="title_pwd_forget">密码找回</string>
+    <string name="text_forget_account">帐号信息</string>
+    <string name="text_forget_confirm">填写验证码</string>
+    <string name="text_forget_finish">修改密码</string>
+    <string name="account_text_hint">邮箱/手机号码</string>
+    <string name="authcode_text_hint">请输入验证码</string>
+    <string name="authcode_text_email">验证码已发送至邮箱：%s</string>
+    <string name="authcode_text_phone">验证码已发送至此号码：%s</string>
+
+    <!-- 专家问答 -->
+    <string name="title_experts">专家问答</string>
+
+    <!-- 专家预约 -->
+    <string name="title_reservation">预约</string>
+    <string name="title_my_reservation">我的预约</string>
+
+    <!-- 保养 -->
+    <string name="title_maintain">保养</string>
+    <string name="text_distance_for_maintain">爱车当前里程： </string>
+    <string name="btn_correct">校准 </string>
+    <string name="btn_order">立即预约 </string>
+    <string name="text_maintain_time_tip">小蜜智能分析，距离下次保养还有：%s公里</string>
+    <string name="btn_maintian_period">爱车保养周期</string>
+    <string name="btn_maintian_item">零件保养</string>
+    <string name="btn_maintian_recoder">保养记录</string>
+    <string name="text_pre_maintain_time">上次保养时间：%s</string>
+    <string name="title_reservation_recoder">保养记录</string>
+    <string name="title_maintain_item">零件保养</string>
+    <string name="title_maintain_add">添加保养</string>
+
+    <!-- 添加保养 -->
+    <string name="text_maintain_range">里程：</string>
+    <string name="text_maintain_time">时间：</string>
+    <string name="text_maintain_cost">费用：</string>
+    <string name="text_maintain_item">保养项：</string>
+    <string name="text_maintain_type">类型：</string>
+    <string name="text_maintain_remark">备注：</string>
+    <string name="text_maintain_range_hint">保养里程      公里</string>
+    <string name="text_maintain_time_hint">选择保养时间</string>
+    <string name="text_maintain_cost_hint">保养费用      元</string>
+    <string name="text_maintain_item_hint">做了哪些保养</string>
+
+    <!-- 商家 -->
+    <string name="title_merchants">保养商家</string>
+    <string name="btn_order_now">预约</string>
+    <string name="title_merchant_detail">商家详情</string>
+    <string name="text_merchant_phone">联系电话</string>
+    <string name="text_merchant_map">地图导航</string>
+    <string name="text_merchant_comment">历史评价</string>
+    <string name="text_vip">专享</string>
+    <string name="text_privilege">优惠</string>
+    <string name="text_vip_privilege">专享优惠</string>
+
+    <!-- 预约 -->
+    <string name="text_current_distance">当前里程：%skm</string>
+    <string name="text_order_time">预约时间：%s</string>
+    <string name="text_maintain_items">根据车况，推荐的以下保养项目，请选择</string>
+    <string name="text_add_maitain">添加保养项</string>
+    <string name="text_wait_order">已向%s发送预约请求，请耐心等待商家确认！</string>
+    <string name="text_suc_order">%1$s已确认，保养时间定于%2$s，为了您的安全，请按时保养！%3$s</string>
+    <string name="text_cancel_order">发送给%s的预约请求已取消！</string>
+    <string name="text_finish_order">如期预约，+5积分。于%1$s在%2$s进行保养</string>
+
+    <!-- 我的预约 -->
+    <string name="text_my_reservation_score">积分：%d分</string>
+    <string name="text_my_reservation_order">订单：%d</string>
+    <string name="text_my_reservation_rate">成交率：%s</string>
+    <string name="text_my_reservation_repair_order">维修保养救援：%d单</string>
+
+    <!-- 评价 -->
+    <string name="title_up">推荐</string>
+    <string name="title_down">吐槽</string>
+    <string name="title_comment">历史评价</string>
+    <string name="btn_comment_up">推荐点评</string>
+    <string name="btn_comment_down">吐槽点评</string>
+    <string name="merchant_comment_up_hint">欢迎您的推荐</string>
+    <string name="merchant_comment_down_hint">欢迎您的吐槽</string>
+
+    <!-- 实时油价 -->
+    <string name="title_my_realtime">我的实时油价</string>
+    <string name="text_real_oil_manage">管理</string>
+    <string name="text_subscribe_oil">订阅更多加油站</string>
+    <string name="tips_no_subscription">对不起，您还没有订阅</string>
+    <string name="text_subscription">马上订阅</string>
+    <string name="text_cancel_subscription">取消订阅</string>
+    <string name="btn_subscribe">订阅</string>
+    <string name="tips_no_subscription_desc">订阅后，您会第一时间收到油价变化信息。立即搜索周边的加油站，订阅实时油价吧！</string>
+    <!-- 上报油价 -->
+
+    <string name="title_friend_oil_price_report">车友上报</string>
+    <string name="title_oil_price_report">加油上报</string>
+    <string name="text_oil_price_report">上报价格</string>
+    <string name="text_comment_pub">发表点评</string>
+    <string name="text_comment_hint">请写下您的评价，帮助更多的车友。</string>
+
+    <!-- 加油站 -->
+    <string name="title_station">附近加油站</string>
+    <string name="btn_detail">详情</string>
+    <string name="title_gas_station">加油站详情</string>
+    <string name="text_distance_sort">按距离排序</string>
+    <string name="text_price_sort">按油价排序</string>
+
+    <!-- 理赔助理 -->
+    <string name="text_fast_tips_one">一、照片要准确，要特别注意标志标线。</string>
+    <string name="text_fast_tips_two">二、在地上留下记号后在拍照（把刹车痕迹在地面上保留下来）。</string>
+    <string name="text_trouble_type">事故类型</string>
+    <string name="text_car_header">车头部位</string>
+    <string name="text_car_body">车身部位</string>
+    <string name="text_car_crash">碰撞部位</string>
+    <string name="text_car_other">补充其他</string>
+    <string name="text_incident_tailgate">追尾事故（三张）</string>
+    <string name="text_incident_rotary_island">环岛类事故（一张）</string>
+    <string name="text_incident_overtake">超车变道事故（四张）</string>
+    <string name="text_incident_cross_road">十字路口事故（五张）</string>
+
+    <!-- 车况 -->
+    <string name="title_vc">车况</string>
+    <string name="title_vc_detail">故障详细</string>
+    <string name="tips_no_box">对不起，您还没有绑定盒子</string>
+    <string name="tips_no_login">对不起，您还没有登录</string>
+    <string name="tips_no_box_desc">想了解爱车的状况，请您先购买小蜜盒子。您就是修车专家</string>
+    <string name="title_trouble_code">故障码</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="btn_onekey_help">一键救援</string>
+    <string name="btn_order_shop">预约商家</string>
+    <string name="btn_dash_board">仪表盘</string>
+    <string name="btn_qa_professor">提问专家</string>
+    <string name="btn_trouble_code">故障码</string>
+    <string name="btn_vc_history">历史车况</string>
+    <string name="btn_power_sys">动力系统</string>
+    <string name="btn_under_sys">底盘系统</string>
+    <string name="btn_body_sys">车身系统</string>
+    <string name="btn_signal_sys">信号系统</string>
+
+    <!-- 登录 -->
+    <string name="text_user_hint">用户名/手机号</string>
+    <string name="text_email_hint">邮箱</string>
+    <string name="text_area_hint">地区</string>
+    <string name="text_login_tips1">还没有帐号？</string>
+    <string name="text_login_tips2">点此注册</string>
+    <string name="text_login_tips3">找回密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_change">切换用户</string>
+    <string name="btn_reg">注册</string>
+    <string name="cp_right">©2015 sevoh.com</string>
+    <string name="login_suc">登录成功</string>
+    <string name="text_user_null">请输入用户名</string>
+    <string name="text_user_min_limit">用户名长度必须大于6位</string>
+    <string name="text_user_max_limit">用户名长度必须小于16位</string>
+    <string name="text_pwd_min_limit">密码长度在6~16位之间</string>
+    <string name="text_email_null">请输入邮箱</string>
+    <string name="text_email_invalid">您输入的邮箱无效</string>
+    <string name="text_pwd_null">请输入密码</string>
+    <string name="text_serialnumber_hint">OBD序列号</string>
+    <string name="text_active_has_no_signal">"请输入OBD激活码中的“-”字符"</string>
+    <string name="text_active_invalid">无效的OBD激活码</string>
+    <string name="text_active_null">请输入OBD激活码</string>
+    <string name="text_area_null">请选择地区</string>
+
+    <!-- 首页 -->
+    <string name="btn_add_car_text">添加爱车</string>
+    <string name="btn_order_maintain_text">预约保养</string>
+
+    <!-- 添加车辆 -->
+    <string name="title_car_add">添加车辆</string>
+    <string name="title_oil_add">选择燃油类型</string>
+    <string name="text_car_model">车        型</string>
+    <string name="text_car_model_hint">请选择车型</string>
+    <string name="text_car_driviing">行驶区域</string>
+    <string name="text_car_driving_hint">请选择城市</string>
+    <string name="text_car_oil_hint">请选择燃油类型</string>
+    <string name="text_car_plate">车牌号码</string>
+    <string name="text_car_engine">发动机号</string>
+    <string name="text_car_engine_hint">请输入发动机号</string>
+    <string name="text_car_engine_vio_hint">请输入发动机号的最后%d位</string>
+    <string name="text_car_vin">车架号码</string>
+    <string name="text_car_vin_hint">请输入车架号</string>
+    <string name="text_car_vin_vio_hint">请输入车架号的最后%d位</string>
+    <string name="text_car_plate_type">号牌类型</string>
+    <string name="text_car_plate_type_hint">请选择号牌</string>
+    <string name="text_car_regist">登记证号</string>
+    <string name="text_car_regist_hint">请输入登记证号</string>
+    <string name="text_car_regist_vio_hint">请输入登记证号的最后%d位</string>
+    <string name="title_car_model">选择车型</string>
+
+    <!-- 标签页 -->
+    <string name="BaseTabActivity_Home">首页</string>
+    <string name="BaseTabActivity_Trip">车况</string>
+    <string name="BaseTabActivity_Service">服务</string>
+    <string name="BaseTabActivity_MainTain">保养</string>
+    <string name="BaseTabActivity_PersonlCenter">我的</string>
+
+    <!-- 标签页标题 -->
+    <string name="title_home">车保姆</string>
+    <string name="title_trip">行程</string>
+    <string name="title_service">服务</string>
+    <string name="title_rule_break">违章查询</string>
+    <string name="title_nearby">附近周边</string>
+    <string name="title_driveing">驾车路线</string>
+
+    <!-- 首页 -->
+    <string name="text_car_report">用车报告</string>
+    <string name="text_oil_statistics">油耗统计</string>
+    <string name="text_nearby_4s">周边4s店</string>
+    <string name="text_violation">爱车违章</string>
+    <string name="text_maintain">保养查询</string>
+    <string name="text_secure">防盗</string>
+    <string name="text_distance">总里程：%s公里</string>
+    <string name="text_fuelConsumption100">平均油耗：%s升/百公里</string>
+    <string name="text_instant_fuelConsumption100">瞬时油耗：%s升/百公里</string>
+    <string name="text_fuelAmount">剩余油量：%s升</string>
+    <string name="text_continueDistance">续航里程：%s公里</string>
+    <string name="text_troubleCodeNumber">车况：%s</string>
+    <string name="text_coolantTemperature">水温：%s</string>
+    <string name="text_battery_remain">电瓶电压：%s伏</string>
+    <string name="text_drivingScore">安全驾驶评分：%s分</string>
+    <string name="text_drivingScoreRank">击败：%s的用户</string>
+    <string name="alert_dialog_title">一键救援</string>
+    <string name="title_4s">4s热线</string>
+    <string name="title_insure">保险公司热线</string>
+
+    <!-- 车况检测 -->
+    <string name="title_car_check">车况体检</string>
+    <string name="title_trouble">故障详情</string>
+    <string name="title_car_search">车况查询</string>
+    <string name="text_car_info">车况</string>
+    <string name="text_car_break">故障</string>
+    <string name="text_car_check_result">车况检测结果</string>
+    <string name="btn_see_all">查看全部</string>
+
+    <!-- 行程 -->
+    <string name="title_date_trip">行程查询</string>
+    <string name="btn_latest_trip">最近行程</string>
+    <string name="btn_data_search">日期查询</string>
+    <string name="btn_trip">行车轨迹</string>
+    <string name="btn_score">驾驶评分</string>
+    <string name="btn_fuel">平均油耗</string>
+    <string name="text_top_speed">最高时速：%s公里/小时</string>
+    <string name="text_avg_speed">平均时速：%s公里/小时</string>
+    <string name="dialog_date_title">选择起始日期</string>
+    <string name="title_trip_line">行程线路</string>
+    <string name="title_drive_score">驾驶评分</string>
+    <string name="title_fuel">平均油耗</string>
+    <string name="title_fuel_detail">油耗详情</string>
+
+    <!-- 油耗详情 -->
+    <string name="detail_fuel_distance">里程：%.1f公里</string>
+    <string name="detail_fuel_duration">历时：%s</string>
+    <string name="detail_fuel_cost">平均油耗：%.2f升/百公里</string>
+    <string name="detail_fuel_idle">怠速：%s</string>
+    <string name="detail_top_speed">最高时速：%.0f公里/小时</string>
+    <string name="detail_avg_speed">平均时速：%.0f公里/小时</string>
+
+    <!-- 服务 -->
+    <string name="text_fuel_amount">油耗总量:%.1f升</string>
+    <string name="text_legend_amount">统计里程:%.1f公里</string>
+    <string name="text_avg_legend">平均里程:%.1f公里</string>
+    <string name="text_avg_fuel">平均油耗:%.1f升/百公里</string>
+    <string name="text_max_fuel">最高油耗:%.1f升/百公里</string>
+    <string name="text_min_fuel">最低油耗:%.1f升/百公里</string>
+
+    <!-- 风云榜 -->
+    <string name="title_billboard">风云榜</string>
+    <string name="text_oil_wear">平均油耗排名</string>
+    <string name="text_skill_drive">驾驶技能排名</string>
+
+    <!-- 特惠商家 -->
+    <string name="title_prefer">特惠商家</string>
+
+    <!-- 理赔助理 -->
+    <string name="title_fast_assistant">快赔助理</string>
+    <string name="text_photo_guide">拍照指南</string>
+    <string name="btn_incident_forensics">事故取证</string>
+    <string name="btn_data_upload">双方资料上传</string>
+
+    <!-- 一键救援 -->
+    <string name="title_onekey_help">一键救援</string>
+    <string name="text_onekey_help">1，发生普通交通事故时，请拨打：122（交通事故报警台）；\n
+									2， 交通事故中发生人员伤亡时，请拨打：120（急救中心），同时拨打122；\n
+									3，发生车辆被盗抢事故时，请拨打：110（报警服务台）；\n
+									4， 发生车辆自燃或意外失火时，请拨打：119（火警）；\n
+									5，当车辆发生撞墙、台阶、水泥柱及树等单车事故不涉及向他人赔偿的事故时，无需向交警等部门报案，直接向保险公司报案即可（若损失较为严重，发生车上人员受伤时，也需报交警122）。在事故现场附近等候保险公司来人查勘，或将车开到保险公司报案、验车。</string>
+
+    <!-- 个人详情 -->
+    <string name="title_user">个人主页</string>
+    <string name="text_week_history">周痕迹</string>
+    <string name="text_amount_range">周总里程</string>
+    <string name="text_avg_oil_wear">平均油耗</string>
+    <string name="text_week_sort">周排名</string>
+    <string name="text_avg_oil_sort">平均油耗排名</string>
+    <string name="text_skill_sort">驾驶技能排名</string>
+    <string name="text_month_history">月痕迹</string>
+    <string name="text_month_sort">月排名</string>
+    <string name="text_month_amount_range">月总里程</string>
+
+    <!-- 安全驾驶评分 -->
+    <string name="text_score_start_time">起始时间：%s</string>
+    <string name="text_score_start_loc">起点：%s</string>
+    <string name="text_score_end_time">结束时间：%s</string>
+    <string name="text_score_end_loc">终点：%s</string>
+    <!-- 安全驾驶 -->
+    <string name="text_drive_distance">行驶里程：%.2f公里</string>
+    <string name="text_drive_duation">历时：%s</string>
+    <string name="text_drive_score">评分：%d</string>
+    <string name="text_drive_rank">您的安全驾驶行为击败%s的用户</string>
+    <string name="title_drive_safe">安全驾驶评分</string>
+    <string name="title_drive_score_query">评分查询</string>
+
+    <!-- 违章查询 -->
+
+    <string name="btn_query">查询</string>
+    <string name="title_illegal_result">违章详情</string>
+    <string name="title_violation_plate">号牌类型</string>
+    <string name="tips_violation_city">请先选择城市</string>
+    <string name="tips_violation_plate">请输入车牌号</string>
+    <string name="tips_violation_no_engine">请输入发动机号</string>
+    <string name="tips_violation_vin">请输入车架号</string>
+    <string name="tips_violation_register">请输入注册号</string>
+    <string name="text_vio_info1">罚款：%s元 </string>
+    <string name="text_vio_info2">扣分:%s分</string>
+    <string name="text_vio_result">%1$s共计违章%2$d次，罚款:%3$d元，扣分%4$d分</string>
+    <string name="text_home_vio_result">%1$s违章:%2$d次，扣%3$d分(截止日期%4$s)</string>
+
+    <!-- 我的页面 -->
+    <string name="text_range">车辆里程</string>
+    <string name="text_box_range">盒子里程</string>
+    <string name="text_track">爱车轨迹</string>
+    <string name="text_my_sub">我的预约</string>
+    <string name="text_my_fav">我的收藏</string>
+    <string name="text_my_notify">我的通知</string>
+    <string name="text_my_real_time">我的实时油价</string>
+    <string name="text_btn_trip_recoder">行程记录</string>
+    <string name="btn_cancel_fav">取消收藏</string>
+    <string name="btn_all">全部</string>
+    <string name="btn_has_download">已下载</string>
+    <string name="btn_download_pause">暂停</string>
+    <string name="btn_update_all">全部更新</string>
+    <string name="text_new_download">新地图下载中...</string>
+    <string name="text_tips_no_login">途蜜盒子未激活，当前数据为模拟数据。</string>
+    <string name="text_tips_no_bind">途蜜盒子未激活，没有车辆行驶数据。</string>
+
+    <!-- 设置 -->
+
+    <string name="title_setting">设置</string>
+    <string name="set_item_os">系统设置</string>
+    <string name="set_item_info">个人详情</string>
+    <string name="set_item_pwd">修改密码</string>
+    <string name="set_item_car">车辆维护</string>
+    <string name="set_item_share">应用分享</string>
+    <string name="set_item_about">关于我们</string>
+    <string name="set_item_feedback">意见反馈</string>
+    <string name="set_item_update">检查更新</string>
+    <string name="set_item_svrchange">服务器切换</string>
+    <string name="set_item_help">帮助</string>
+    <string name="set_item_quit">退出登录</string>
+    <string name="set_item_car_detail">车辆详情</string>
+    <string name="set_item_default_car">默认车辆</string>
+    <string name="set_item_car_bind">绑定车辆</string>
+    <string name="set_item_car_unbind">解除车辆</string>
+    <string name="set_item_auth">授权管理</string>
+    <string name="set_item_notify_manage">通知管理</string>
+    <string name="set_item_notify">加油事件提醒</string>
+    <string name="set_item_refresh">定时刷新</string>
+    <string name="set_item_hide_trip">隐藏行踪</string>
+    <string name="set_item_offline_map">离线地图</string>
+    <string name="info_unbind_suc">解除绑定操作成功</string>
+    <!-- 2.0 -->
+    <string name="title_notification">消息中心</string>
+
+    <!-- 授权 -->
+    <string name="auth_item_sina">新浪微博</string>
+    <string name="auth_item_tencent">腾讯微博</string>
+    <string name="auth_item_renren">人人网</string>
+    <string name="auth_item_douban">豆瓣网</string>
+
+    <!-- 通知管理 -->
+    <string name="notify_item_security">防盗提醒</string>
+    <string name="notify_item_maintain">保养提醒</string>
+    <string name="notify_item_oil_add">加油提醒</string>
+    <string name="notify_item_promotion">4S促销提醒</string>
+
+    <!-- 修改个人信息 -->
+    <string name="title_info">个人信息</string>
+    <string name="info_account">用户名：</string>
+    <string name="info_obd_series">OBD序列号：</string>
+    <string name="info_nick">用户昵称：</string>
+    <string name="title_address">选择城市</string>
+    <string name="info_address">居住城市：</string>
+    <string name="info_email">安全邮箱：</string>
+    <string name="info_phone">绑定手机：</string>
+    <string name="btn_reset">保存</string>
+    <string name="info_update_success">修改成功</string>
+    <string name="info_update_fail">修改失败</string>
+    <string name="info_car_add_success">添加成功</string>
+    <string name="info_car_set_success">默认车辆设置成功</string>
+    <!-- 密码修改 -->
+    <string name="title_pwd">修改密码</string>
+    <string name="text_orginal_pwd">原密码</string>
+    <string name="text_new_pwd">新密码</string>
+    <string name="text_confirm_pwd">确认密码</string>
+    <!-- 关于 -->
+    <string name="title_about">关于</string>
+    <!-- 反馈 -->
+    <string name="title_feedback">意见反馈</string>
+    <string name="comment_contact">联系方式：</string>
+    <string name="comment_desc">问题描述：</string>
+    <string name="comment_hint">我来说两句~</string>
+    <string name="feedback_null">亲，请填写您的宝贵意见</string>
+    <string name="feedback_suc">谢谢您的宝贵意见</string>
+
+    <!-- 车主信息修改 -->
+    <string name="title_identity_type">选择证件类型</string>
+    <string name="text_identity_card">身份证</string>
+    <string name="text_card_type">证件类型</string>
+    <string name="text_card_number">证件号码</string>
+    <string name="hint_card_number">请输入证件号码</string>
+    <string name="text_owner_name">车主姓名</string>
+    <string name="hint_owner_name">请输入真实姓名</string>
+    <string name="text_owner_phone">绑定手机</string>
+    <string name="hint_owner_phone">请输入手机号码</string>
+    <string name="text_owner_email">安全邮箱</string>
+    <string name="hint_owner_email">请输入邮箱</string>
+    <string name="text_owner_address">通讯地址</string>
+    <string name="hint_owner_address">请输入通讯地址</string>
+
+    <!-- 车辆维护 -->
+
+
+    <!-- 附近周边 -->
+    <string name="text_dial">电话</string>
+    <string name="text_go">到这去</string>
+
+    <!-- 关于 -->
+    <string name="text_version">版本 V%s</string>
+
+    <declare-styleable name="EditText">
+
+        <!-- 总共输入长度 -->
+        <attr name="totalLength" format="integer" />
+        <!-- 每组的长度 -->
+        <attr name="eachLength" format="integer" />
+        <!-- 分隔符 -->
+        <attr name="delimiter" format="string" />
+        <!-- 占位符 -->
+        <attr name="placeHolder" format="string" />
+    </declare-styleable>
+
+</resources>

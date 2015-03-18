@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res/com.xtrd.obdcar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <include
+        android:id="@+id/layout_experience"
+        layout="@layout/layout_experience"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_top_bar" >
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/white"
+                    android:minHeight="200dip"
+                    android:padding="20dip" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_meter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_dash_board"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_dash_board"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+
+                        <Button
+                            android:id="@+id/btn_trouble_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_qa_professor"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_trouble_code"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/img_car"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/car_running" />
+
+                        <com.xtrd.obdcar.view.CheckProgressView
+                            android:id="@+id/tasks_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_qa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_trouble_code"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_qa_professor"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+
+                        <Button
+                            android:id="@+id/btn_vc_history"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_vc_history"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_vc_history"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="油耗状态："
+                        android:textColor="@color/text_gray_color"
+                        android:textSize="@dimen/Small_font" />
+
+                    <TextView
+                        android:id="@+id/text_oil_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_gray_color"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_vc_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/text_oil_cost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/Large_font" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="元"
+                                android:textColor="@color/text_gray_color"
+                                android:textSize="@dimen/Small_font" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_oil_cost"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dip"
+                            android:text="本次行程油费"
+                            android:textColor="@color/text_gray_color"
+                            android:textSize="@dimen/Small_font" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/text_range_cost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/Large_font" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="公里"
+                                android:textColor="@color/text_gray_color"
+                                android:textSize="@dimen/Small_font" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:text="本次行驶里程"
+                            android:textColor="@color/text_gray_color"
+                            android:textSize="@dimen/Small_font" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dip"
+                    android:background="@color/white"
+                    android:padding="20dip" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_power_sys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_power_sys"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_power_sys"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+
+                        <Button
+                            android:id="@+id/btn_body_sys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_body_sys"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_body_sys"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_ver_bg" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_under_sys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_underpan_sys"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_under_sys"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+
+                        <Button
+                            android:id="@+id/btn_signal_sys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/btn_blue_oval_bg"
+                            android:drawableLeft="@drawable/ic_signal_sys"
+                            android:drawablePadding="10dip"
+                            android:padding="5dip"
+                            android:text="@string/btn_signal_sys"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

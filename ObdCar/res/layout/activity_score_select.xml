@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:id="@+id/layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top_bar"
+        android:layout_margin="10dip" >
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/edit_input_bg"
+            android:drawableLeft="@drawable/ic_search_small"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/Middle_font" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue_bg"
+            android:text="@string/btn_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_date"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tips_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/font_car_add_color"
+        android:textSize="@dimen/Small_font" />
+</RelativeLayout>

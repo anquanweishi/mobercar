@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <include
+        android:id="@+id/layout_experience"
+        layout="@layout/layout_experience"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/text_start_date"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_input_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/Middle_font" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:text="至"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_end_date"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_input_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/Middle_font" />
+
+                <Button
+                    android:id="@+id/btn_select"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/btn_blue_bg"
+                    android:text="@string/btn_select"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/Middle_font" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/btn_blue_bg_no_round"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_fuel_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="油耗总量"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+
+                    <TextView
+                        android:id="@+id/text_legend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="统计里程"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_avg_legend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="平均里程"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+
+                    <TextView
+                        android:id="@+id/text_avg_fuel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="平均油耗"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/text_max_fuel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="最高油耗"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+
+                    <TextView
+                        android:id="@+id/text_min_fuel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="最低油耗"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/tab_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdgeLength="0dip"
+                android:scrollbars="none" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dip"
+                    android:orientation="vertical" >
+
+                    <!-- 滑块 -->
+
+                    <ImageView
+                        android:id="@+id/tab_move"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/ic_tab_check"
+                        android:gravity="center" />
+                    <!-- Tab项 -->
+
+                    <LinearLayout
+                        android:id="@+id/tab_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_above="@id/tab_move"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/layout_lineview_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:minHeight="200dip"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_lineview_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:minHeight="200dip"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

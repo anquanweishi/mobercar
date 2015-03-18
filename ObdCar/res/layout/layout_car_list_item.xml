@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_car_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_car_logo_bg"
+        android:padding="5dip" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+
+        <LinearLayout
+            android:id="@+id/layout_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/text_range_calibration"
+                android:textColor="@color/active_car_list_desc_color"
+                android:textSize="@dimen/Small_font" />
+
+            <EditText
+                android:id="@+id/edit_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:background="@drawable/edit_blue_bg"
+                android:hint="@string/text_range_calibration_hint"
+                android:inputType="number"
+                android:maxLength="7"
+                android:textColor="@color/top_bar_color"
+                android:textColorHint="@color/top_bar_color"
+                android:textSize="@dimen/Small_font" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/range_unit"
+                android:textColor="@color/active_car_list_desc_color"
+                android:textSize="@dimen/Small_font" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/ic_checked" />
+
+</LinearLayout>

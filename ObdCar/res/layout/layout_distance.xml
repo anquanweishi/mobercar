@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/dis_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+    <TextView
+        android:id="@+id/dis_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_blue"
+        android:gravity="center"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small_font" />
+
+</LinearLayout>

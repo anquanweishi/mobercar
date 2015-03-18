@@ -1,0 +1,401 @@
+# view res/layout/activity_guide.xml #generated:7
+# view res/layout/activity_maintain.xml #generated:147
+# view res/layout/layout_merchant_top.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_cate_detail.xml #generated:12
+# view res/layout/activity_home.xml #generated:10
+# view res/layout/activity_maintain.xml #generated:10
+# view res/layout/activity_maintain_recoder.xml #generated:12
+# view res/layout/activity_merchant.xml #generated:12
+# view res/layout/activity_my_fav.xml #generated:12
+# view res/layout/activity_my_sub_station.xml #generated:34
+# view res/layout/activity_service.xml #generated:12
+# view res/layout/activity_trip.xml #generated:13
+# view res/layout/activity_vehicle_condition.xml #generated:16
+# view res/layout/activity_vio_result.xml #generated:25
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:484
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:443
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:463
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:450
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:431
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:512
+-keep class cn.sharesdk.framework.ShareSDKUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:419
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/activity_oil_station_detail.xml #generated:10
+# view res/layout/activity_trip_map.xml #generated:14
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.xtrd.obdcar.BaseTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.xtrd.obdcar.GuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.xtrd.obdcar.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.xtrd.obdcar.IllegalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.xtrd.obdcar.MainTainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.xtrd.obdcar.PersonalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.xtrd.obdcar.ServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.xtrd.obdcar.TripActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.xtrd.obdcar.VehicleConditionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.xtrd.obdcar.WebLoadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.xtrd.obdcar.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.xtrd.obdcar.XtrdApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:279
+-keep class com.xtrd.obdcar.active.AddCarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.xtrd.obdcar.active.BoxActiveOneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:285
+-keep class com.xtrd.obdcar.active.BoxActiveTwoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:288
+-keep class com.xtrd.obdcar.active.CarListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:292
+-keep class com.xtrd.obdcar.active.QrScanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.xtrd.obdcar.carcheck.CarCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.xtrd.obdcar.carcheck.TroubleResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.xtrd.obdcar.carcheck.VehicleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.xtrd.obdcar.home.InsuranceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.xtrd.obdcar.home.SSSSActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.xtrd.obdcar.illegal.IllegalCityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.xtrd.obdcar.illegal.IllegalPlateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.xtrd.obdcar.illegal.IllegalResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:313
+-keep class com.xtrd.obdcar.maintain.CorrectLegendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:322
+-keep class com.xtrd.obdcar.maintain.MainTainAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:319
+-keep class com.xtrd.obdcar.maintain.MainTainCaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.xtrd.obdcar.maintain.MainTainItemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:316
+-keep class com.xtrd.obdcar.maintain.MaintainRecoderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:336
+-keep class com.xtrd.obdcar.merchant.CommentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.xtrd.obdcar.merchant.MerchantActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:333
+-keep class com.xtrd.obdcar.merchant.MerchantDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:339
+-keep class com.xtrd.obdcar.merchant.PrivilegeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:342
+-keep class com.xtrd.obdcar.merchant.ShopEvaluateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:379
+-keep class com.xtrd.obdcar.nearby.NearCategoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:382
+-keep class com.xtrd.obdcar.nearby.NearShopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:385
+-keep class com.xtrd.obdcar.nearby.NearShopDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.xtrd.obdcar.nearby.NearbyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:388
+-keep class com.xtrd.obdcar.nearby.PoiLineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.xtrd.obdcar.obdservice.AddOilActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.xtrd.obdcar.obdservice.BillboardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.xtrd.obdcar.obdservice.CarBookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.xtrd.obdcar.obdservice.CarUseReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.xtrd.obdcar.obdservice.CateDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.xtrd.obdcar.obdservice.FastAssistantActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.xtrd.obdcar.obdservice.FindLocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.xtrd.obdcar.obdservice.FuelRankActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.xtrd.obdcar.obdservice.OneKeyHelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.xtrd.obdcar.obdservice.PreferentialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.xtrd.obdcar.obdservice.ReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.xtrd.obdcar.obdservice.SerachInputActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.xtrd.obdcar.obdservice.UserDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:347
+-keep class com.xtrd.obdcar.oil.FriendOilReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:350
+-keep class com.xtrd.obdcar.oil.OilReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.xtrd.obdcar.passport.CarAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.xtrd.obdcar.passport.ChooseBranchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.xtrd.obdcar.passport.ChooseDrivingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.xtrd.obdcar.passport.ChooseOilActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.xtrd.obdcar.passport.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.xtrd.obdcar.passport.RegActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:297
+-keep class com.xtrd.obdcar.pwdforget.ForgetOneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class com.xtrd.obdcar.pwdforget.ForgetThreeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:300
+-keep class com.xtrd.obdcar.pwdforget.ForgetTwoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:487
+-keep class com.xtrd.obdcar.receiver.JPushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:308
+-keep class com.xtrd.obdcar.reservation.ReservationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:374
+-keep class com.xtrd.obdcar.self.CarReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:362
+-keep class com.xtrd.obdcar.self.GasStationDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:371
+-keep class com.xtrd.obdcar.self.MyCarTrackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:368
+-keep class com.xtrd.obdcar.self.MyFavoriteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:353
+-keep class com.xtrd.obdcar.self.MySubscriptionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:359
+-keep class com.xtrd.obdcar.self.NearGasStationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:356
+-keep class com.xtrd.obdcar.self.NotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class com.xtrd.obdcar.self.SubscriptionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.xtrd.obdcar.setting.AddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:274
+-keep class com.xtrd.obdcar.setting.AuthManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.xtrd.obdcar.setting.CarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.xtrd.obdcar.setting.CarBindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.xtrd.obdcar.setting.CarDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.xtrd.obdcar.setting.CardTypeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.xtrd.obdcar.setting.DefaultCarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.xtrd.obdcar.setting.DetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.xtrd.obdcar.setting.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.xtrd.obdcar.setting.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.xtrd.obdcar.setting.InfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.xtrd.obdcar.setting.MyReservationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.xtrd.obdcar.setting.NotifyManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.xtrd.obdcar.setting.OffLineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.xtrd.obdcar.setting.PwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:261
+-keep class com.xtrd.obdcar.setting.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:271
+-keep class com.xtrd.obdcar.setting.ViewMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.xtrd.obdcar.trip.DateTripActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.xtrd.obdcar.trip.DriveScoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.xtrd.obdcar.trip.FuelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.xtrd.obdcar.trip.ScoreSelectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.xtrd.obdcar.trip.TripMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:551
+-keep class com.xtrd.obdcar.tumi.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:414
+-keep class com.xtrd.obdcar.vc.CarSystemVcActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:392
+-keep class com.xtrd.obdcar.vc.DashBoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:405
+-keep class com.xtrd.obdcar.vc.HistoryVCActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:408
+-keep class com.xtrd.obdcar.vc.HistoryVCDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:395
+-keep class com.xtrd.obdcar.vc.ProfessorQAActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class com.xtrd.obdcar.vc.TroubleCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:402
+-keep class com.xtrd.obdcar.vc.TroubleCodeDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:411
+-keep class com.xtrd.obdcar.vc.VCCheckActivity { <init>(...); }
+
+# view res/layout/activity_vehicle_condition.xml #generated:85
+-keep class com.xtrd.obdcar.view.CheckProgressView { <init>(...); }
+
+# view res/layout/activity_active_two.xml #generated:107
+-keep class com.xtrd.obdcar.view.HPEditText { <init>(...); }
+
+# view res/layout/activity_my_fav.xml #generated:27
+-keep class com.xtrd.obdcar.view.MyExpandListView { <init>(...); }
+
+# view res/layout/activity_maintain_case.xml #generated:41
+# view res/layout/activity_reservation.xml #generated:146
+# view res/layout/layout_category_group.xml #generated:27
+# view res/layout/layout_incident_item.xml #generated:23
+# view res/layout/layout_maintain_recoder_item.xml #generated:76
+# view res/layout/layout_reservation_item.xml #generated:43
+-keep class com.xtrd.obdcar.view.MyGridView { <init>(...); }
+
+# view res/layout/activity_fast_assistant.xml #generated:76
+# view res/layout/activity_maintain_case.xml #generated:58
+# view res/layout/activity_merchant.xml #generated:28
+# view res/layout/activity_merchant_detail.xml #generated:82
+# view res/layout/activity_my_sub_station.xml #generated:50
+# view res/layout/activity_onekey_help.xml #generated:31
+# view res/layout/activity_reservation.xml #generated:184
+# view res/layout/offlinemap_header.xml #generated:7
+-keep class com.xtrd.obdcar.view.MyListView { <init>(...); }
+
+# view res/layout/activity_check.xml #generated:20
+-keep class com.xtrd.obdcar.view.MyProgressView { <init>(...); }
+
+# view res/layout/layout_car_model_content.xml #generated:28
+-keep class com.xtrd.obdcar.view.SideBar { <init>(...); }
+
+# view res/layout/activity_car_book.xml #generated:16
+-keep class com.xtrd.obdcar.view.XtWebView { <init>(...); }
+
+# view res/layout/layout_date_dialog.xml #generated:48
+# view res/layout/layout_date_dialog.xml #generated:54
+# view res/layout/layout_date_dialog.xml #generated:60
+# view res/layout/layout_date_dialog.xml #generated:66
+# view res/layout/layout_date_dialog.xml #generated:72
+-keep class com.xtrd.obdcar.wheel.WheelView { <init>(...); }
+

@@ -1,0 +1,1 @@
+{"status":1,"result":{"price":34.6,"check":0,"speed":35,"status":3,"dis":20281.000,"data":[{"name":"动力系统","size":0},{"name":"车身系统","size":0},{"name":"底盘系统","size":0},{"name":"网络系统","size":0}],"fuel":34.6,"ttl":20}}

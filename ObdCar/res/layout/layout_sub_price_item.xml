@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:background="@drawable/listview_bg"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:id="@+id/text_oil_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/top_bar_color"
+            android:gravity="center"
+            android:padding="5dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+
+        <TextView
+            android:id="@+id/text_oil_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <include layout="@layout/layout_active_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/blue_has_round_bg"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/layout_branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center_vertical"
+            android:minHeight="40dip" >
+
+            <TextView
+                android:id="@+id/text_car_plate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/car_branch_choose"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_margin="10dip"
+            android:background="@drawable/interval_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center_vertical"
+            android:minHeight="40dip" >
+
+            <TextView
+                android:id="@+id/car_plate_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_down"
+                android:text="辽"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_plate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="@string/text_car_plate_hint"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/active_plate_text_color_hint"
+                android:textSize="@dimen/Middle_font" >
+            </EditText>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_margin="10dip"
+            android:background="@drawable/interval_line" />
+
+        <LinearLayout
+            android:id="@+id/layout_add_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center_vertical"
+            android:minHeight="40dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_car_driviing"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_margin="10dip"
+            android:background="@drawable/interval_line" />
+
+        <LinearLayout
+            android:id="@+id/layout_oil_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center_vertical"
+            android:minHeight="40dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_car_oil"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_margin="10dip"
+            android:background="@drawable/interval_line" />
+
+        <LinearLayout
+            android:id="@+id/layout_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_range_calibration"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+
+            <EditText
+                android:id="@+id/edit_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/edit_white_bg"
+                android:hint="@string/text_range_calibration_hint"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/top_bar_color"
+                android:textColorHint="@color/top_bar_color"
+                android:textSize="@dimen/Middle_font" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/range_unit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

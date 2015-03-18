@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:background="@drawable/item_bg"
+                    android:gravity="center_vertical"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_distance_for_maintain"
+                        android:textColor="@color/text_gray_color"
+                        android:textSize="@dimen/Small_font" />
+
+                    <include
+                        android:id="@+id/layout_distance"
+                        layout="@layout/layout_distance" />
+
+                    <Button
+                        android:id="@+id/btn_correct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_light_blue_bg"
+                        android:text="@string/btn_correct"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/item_bg"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/text_maintain_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_gray_color"
+                        android:textSize="@dimen/Small_font" />
+
+                    <Button
+                        android:id="@+id/btn_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/btn_blue_bg"
+                        android:text="@string/btn_order"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Small_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_pre_maintain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/item_bg"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/text_pre_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:textColor="@color/text_gray_color"
+                        android:textSize="@dimen/Small_font" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_dis_cost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/text_maintain_distance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_gray_color"
+                            android:textSize="@dimen/Small_font" />
+
+                        <TextView
+                            android:id="@+id/text_maintain_cost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dip"
+                            android:textColor="@color/maintain_blue_text_color"
+                            android:textSize="@dimen/Small_font" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_maintain_period"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:background="@drawable/btn_blue_bg"
+                    android:text="@string/btn_maintian_period"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/Middle_font" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="200dip" >
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/layout_gallery"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+                        </android.support.v4.view.ViewPager>
+
+                        <TextView
+                            android:id="@+id/text_shop_promotion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="@color/half_black"
+                            android:gravity="center"
+                            android:minHeight="40dip"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/Small_font" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_points"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_maintian_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_blue_bg"
+                        android:text="@string/btn_maintian_item"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Middle_font" />
+
+                    <Button
+                        android:id="@+id/btn_maintian_recoder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginRight="5dip"
+                        android:background="@drawable/btn_blue_bg"
+                        android:text="@string/btn_maintian_recoder"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Middle_font" />
+
+                    <ImageButton
+                        android:id="@+id/btn_maintain_add"
+                        android:layout_width="35dip"
+                        android:layout_height="35dip"
+                        android:background="@drawable/btn_blue_bg_no_size"
+                        android:src="@drawable/ic_maintian_add_bg" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

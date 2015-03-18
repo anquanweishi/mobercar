@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_top_bar"
+        layout="@layout/top_bar" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top_bar"
+        android:layout_marginBottom="45dip"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Button
+            android:id="@+id/btn_ask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/btn_ask"
+            android:textColor="#45c118"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edit_input"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/listview_bg"
+            android:minHeight="40dip"
+            android:paddingLeft="5dip"
+            android:singleLine="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:background="@drawable/btn_green_bg"
+            android:text="@string/btn_send"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

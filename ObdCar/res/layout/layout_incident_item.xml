@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="100dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_car_add_color"
+            android:textSize="@dimen/Middle_font" />
+
+        <com.xtrd.obdcar.view.MyGridView
+            android:id="@+id/gridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:listSelector="@color/transparent"
+            android:numColumns="2"
+            android:scrollbars="none" >
+        </com.xtrd.obdcar.view.MyGridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="100dip"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_photo_bg" />
+
+        <TextView
+            android:id="@+id/text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_car_header"
+            android:textColor="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+</LinearLayout>

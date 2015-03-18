@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:minHeight="40dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/btn_oil_wear"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/text_oil_wear"
+            android:textColor="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+
+        <TextView
+            android:id="@+id/btn_skill_drvie"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/listview_bg"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/text_skill_drive"
+            android:textColor="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:background="@drawable/listview_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_bar_color"
+            android:gravity="center_vertical"
+            android:minHeight="40dip"
+            android:padding="10dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/text_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Middle_font" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@color/interval"
+            android:dividerHeight="1dip"
+            android:listSelector="@color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

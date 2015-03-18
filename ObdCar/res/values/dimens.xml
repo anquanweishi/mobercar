@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Max_Large_font">24sp</dimen>
+    <dimen name="Large_font">20sp</dimen>
+    <dimen name="Middle_font">18sp</dimen>
+    <dimen name="Small_font">16sp</dimen>
+    <dimen name="Small_Normal_font">14sp</dimen>
+    <dimen name="Small_Middle_font">13sp</dimen>
+    <dimen name="Smallest_font">12sp</dimen>
+    <dimen name="report_text_size">12sp</dimen>
+    <dimen name="report_label_size">10sp</dimen>
+    <!-- chat -->
+    <dimen name="margin_chat_activity">7dip</dimen>
+    <dimen name="size_avatar">45dp</dimen>
+    <dimen name="car_logo_padding">15dip</dimen>
+    <!-- 首页车辆信息 -->
+    <dimen name="home_text_plate">16sp</dimen>
+    <dimen name="home_text_branch">14sp</dimen>
+
+</resources>

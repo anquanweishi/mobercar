@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_type_92"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:minHeight="60dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_oil_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:singleLine="true"
+        android:textColor="@color/top_bar_color"
+        android:textSize="@dimen/Middle_font" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_oil_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:singleLine="true"
+        android:textColor="@color/text_gray_color"
+        android:textSize="@dimen/Small_font" >
+    </TextView>
+
+</LinearLayout>

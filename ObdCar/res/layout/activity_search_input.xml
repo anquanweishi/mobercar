@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top_bar"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:minHeight="60dip"
+        android:padding="10dip" >
+
+        <EditText
+            android:id="@+id/text_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:hint="@string/tips_no_input"
+            android:background="@drawable/edit_input_bg"
+            android:drawableLeft="@drawable/ic_search_small"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/Middle_font" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue_bg"
+            android:text="@string/btn_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+</LinearLayout>

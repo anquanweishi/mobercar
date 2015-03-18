@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="car_plate">
+        <item>京</item>
+        <item>沪</item>
+        <item>津</item>
+        <item>渝</item>
+        <item>黑</item>
+        <item>吉</item>
+        <item>辽</item>
+        <item>冀</item>
+        <item>蒙</item>
+        <item>陕</item>
+        <item>晋</item>
+        <item>甘</item>
+        <item>宁</item>
+        <item>新</item>
+        <item>藏</item>
+        <item>青</item>
+        <item>川</item>
+        <item>云</item>
+        <item>贵</item>
+        <item>湘</item>
+        <item>鄂</item>
+        <item>豫</item>
+        <item>鲁</item>
+        <item>皖</item>
+        <item>苏</item>
+        <item>浙</item>
+        <item>粤</item>
+        <item>桂</item>
+        <item>赣</item>
+        <item>闽</item>
+        <item>琼</item>
+    </string-array>
+    <string-array name="one_key_for_help">
+        <item>呼叫120</item>
+        <item>呼叫110</item>
+        <item>呼叫122</item>
+        <item>保险公司电话</item>
+        <item>4S热线</item>
+    </string-array>
+    <string-array name="service_array">
+        <item>统计报表</item>
+        <item>附近周边</item>
+        <item>寻车定位</item>
+        <item>驾车宝典</item>
+        <item>行车轨迹</item>
+        <item>车况检测</item>
+        <item>驾车评分</item>
+        <item>消息提醒</item>
+        <item>违章查询</item>
+        <item>油品排名</item>
+    </string-array>
+    <string-array name="arr_idcard_type">
+        <item>身份证</item>
+        <item>军官证</item>
+        <item>士兵证</item>
+        <item>其他</item>
+    </string-array>
+
+    <declare-styleable name="MyProgressView">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="bgColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+    
+
+    <string-array name="vc_idling">
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <item>@drawable/a5</item>
+        <item>@drawable/a6</item>
+        <item>@drawable/a7</item>
+        <item>@drawable/a8</item>
+    </string-array>
+    <string-array name="vc_normal_run">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+        <item>@drawable/b9</item>
+        <item>@drawable/b10</item>
+        <item>@drawable/b11</item>
+        <item>@drawable/b12</item>
+        <item>@drawable/b13</item>
+        <item>@drawable/b14</item>
+        <item>@drawable/b15</item>
+        <item>@drawable/b16</item>
+        <item>@drawable/b17</item>
+        <item>@drawable/b18</item>
+    </string-array>
+
+</resources>

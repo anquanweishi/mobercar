@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:background="@drawable/listview_bg"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:id="@+id/text_oil_type"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:background="@color/top_bar_color"
+            android:gravity="center"
+            android:padding="5dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Middle_font" />
+
+        <EditText
+            android:id="@+id/edit_price_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="0.0"
+            android:maxLength="5"
+            android:minWidth="80dip"
+            android:numeric="decimal"
+            android:singleLine="true"
+            android:textColor="@color/top_bar_color"
+            android:textColorHint="@color/top_bar_color"
+            android:textSize="@dimen/Middle_font" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="元/升"
+            android:textColor="@color/text_label_report_color"
+            android:textSize="@dimen/Middle_font" />
+    </LinearLayout>
+
+</LinearLayout>

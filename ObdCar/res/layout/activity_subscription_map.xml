@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:minHeight="200dip"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/activity_gray"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_arrow"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:background="@null"
+                android:src="@drawable/arrow_down" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="300dip"
+                android:background="@drawable/listview_bg"
+                android:divider="@color/interval"
+                android:dividerHeight="1dip"
+                android:listSelector="@color/transparent" >
+            </ListView>
+
+            <View
+                android:id="@+id/view_interval"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/interval"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/layout_display_item"
+                layout="@layout/layout_station_item"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <EditText
+        android:id="@+id/edit_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/comment_bg"
+        android:ems="5"
+        android:focusable="true"
+        android:gravity="top"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine|text"
+        android:lines="5"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:selectAllOnFocus="true"
+        android:singleLine="false" >
+    </EditText>
+
+</LinearLayout>

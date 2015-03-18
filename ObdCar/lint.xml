@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IncludeLayoutParam">
+        <ignore path="res/layout/activity_fuel.xml" />
+    </issue>
+    <issue id="MissingTranslation">
+        <ignore path="res/values/app_update_tips.xml" />
+        <ignore path="res/values/arrs.xml" />
+        <ignore path="res/values/strings.xml" />
+        <ignore path="res/values/tips_str.xml" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/activity_score_select.xml" />
+        <ignore path="res/layout/layout_incident_two.xml" />
+    </issue>
+    <issue id="RtlSymmetry">
+        <ignore path="res/layout/activity_car_use_report.xml" />
+        <ignore path="res/layout/activity_evaluate.xml" />
+        <ignore path="res/layout/activity_fast_assistant.xml" />
+        <ignore path="res/layout/activity_history_vc.xml" />
+        <ignore path="res/layout/activity_illegal_city.xml" />
+        <ignore path="res/layout/activity_illegal_plate.xml" />
+        <ignore path="res/layout/activity_offline.xml" />
+        <ignore path="res/layout/activity_oil.xml" />
+        <ignore path="res/layout/activity_progessor_qa.xml" />
+        <ignore path="res/layout/activity_report.xml" />
+        <ignore path="res/layout/activity_score_select.xml" />
+        <ignore path="res/layout/activity_search_input.xml" />
+        <ignore path="res/layout/activity_trouble_code.xml" />
+        <ignore path="res/layout/activity_vc_check.xml" />
+        <ignore path="res/layout/activity_vehicle.xml" />
+        <ignore path="res/layout/layout_incident_two.xml" />
+        <ignore path="res/layout/layout_popup.xml" />
+        <ignore path="res/layout/layout_report_list_top.xml" />
+        <ignore path="res/layout/model_list_item.xml" />
+    </issue>
+</lint>
